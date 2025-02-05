@@ -9,8 +9,7 @@ const faqs = [
   },
   {
     question: "What is the last date for registration?",
-    answer:
-      "Registrations close on 15th February 2025 at 11:59 PM IST.",
+    answer: "Registrations close on 15th February 2025 at 11:59 PM IST.",
   },
   {
     question: "How are teams formed?",
@@ -18,9 +17,10 @@ const faqs = [
       "Teams of 2-4 members. You can come with a team or find teammates during team formation.",
   },
   {
-    question: "How can i register of HackSync 2025 and is there a registration fee?",
+    question:
+      "How can i register of HackSync 2025 and is there a registration fee?",
     answer:
-      "You can register for Need For Code 3.0 through Devfolio. No participation fees are required, Hackathon is completely free.",
+      "You can register for HackSync through Devfolio. No participation fees are required, Hackathon is completely free.",
   },
   {
     question: "Will there be prizes?",
