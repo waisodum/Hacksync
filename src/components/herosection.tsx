@@ -37,12 +37,12 @@ const HeroSection: React.FC = () => {
         <br />
         <br />
 
-        <div
+        {/* <div
           className="apply-button"
           data-hackathon-slug="hacksync-2025-ai-ml"
           data-button-theme="dark-inverted"
           style={{ height: "44px", width: "312px" }}
-        ></div>
+        ></div> */}
       </motion.div>
 
       <motion.div

@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-mesh text-white font-space">
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <Navbar />
 
       <Element name="home">
@@ -38,7 +38,6 @@ function App() {
       <Element name="about">
         <HackSyncAbout />
       </Element>
-
 
       <Element name="domains">
         <DomainsSection />
@@ -78,24 +77,13 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-black bg-opacity-10 backdrop-blur-md shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-0">
-
           {/* <div className="text-2xl font-bold text-white">HackSync</div> */}
           <div className="flex items-center space-x-3">
-          <img
-            src={gdgLogo}
-            alt="GDG Logo"
-            className="h-14 w-auto"
-          />
-          <img
-            src={gdgLogo2}
-            alt="GDG Logo"
-            className="h-24 w-auto"
-          />
+            <img src={gdgLogo} alt="GDG Logo" className="h-14 w-auto" />
+            <img src={gdgLogo2} alt="GDG Logo" className="h-24 w-auto" />
 
-          {/* <h1 className="font-sans text-2xl">GDG</h1> */}
+            {/* <h1 className="font-sans text-2xl">GDG</h1> */}
           </div>
-
-
 
           <div className="hidden md:flex space-x-6">
             {menuItems.map((item) => (
@@ -113,7 +101,10 @@ const Navbar = () => {
             ))}
           </div>
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-white focus:outline-none">
+            <button
+              onClick={toggleMenu}
+              className="text-white focus:outline-none"
+            >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
@@ -151,18 +142,6 @@ const Navbar = () => {
 
 export default App;
 
-
-
-
-
-
-
-
-
-
-
-
-
 // import React from "react";
 // import { motion } from "framer-motion";
 // import {
@@ -186,7 +165,7 @@ export default App;
 // import DestinationSection from "./components/destination.js";
 // import SponsorsSection from "./components/sponsor.js";
 // import Navbar from "./components/Navbar.js";
-// import HeroSection from "./components/herosection.js";  
+// import HeroSection from "./components/herosection.js";
 // import DomainsSection from "./components/DomainSection.js";
 // import EventTimeline from "./components/EventTimeline.js";
 // import FAQSection from "./components/FAQSection.js";
@@ -214,16 +193,13 @@ export default App;
 
 //       <Navbar />
 
-
 //       <HeroSection />
-
 
 //       {/* {about us} */}
 //       <HackSyncAbout />
 
 //       {/* {destination} */}
 //       <DestinationSection />
-
 
 //       {/* Features Section */}
 
@@ -233,10 +209,8 @@ export default App;
 
 //       <EventTimeline />
 
-
 //       {/* sponsor section */}
 //       <SponsorsSection />
-
 
 //       {/* FAQ Section */}
 
