@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-mesh text-white font-space">
-      <ParticleBackground />
+      {/* <ParticleBackground /> */}
       <Navbar />
 
       <Element name="home">
