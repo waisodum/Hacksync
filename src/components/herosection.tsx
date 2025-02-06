@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
           className="text-5xl md:text-7xl font-bold mb-6 text-primary-500 font-arsenica"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
+          transition={{ duration: 0.8, delay: 1.5 }}
         >
           HACKSYNC 2025
         </motion.h1>
@@ -26,23 +26,23 @@ const HeroSection: React.FC = () => {
           className="text-xl md:text-2xl mb-12 text-gray-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 2 }}
         >
           <TypewriterText text="Innovate. Disrupt. Transform." />
         </motion.div>
 
-        {/* <CountdownTimer /> */}
+        <CountdownTimer />
         <br />
         <br />
         <br />
         <br />
 
-        {/* <div
+        <div
           className="apply-button"
           data-hackathon-slug="hacksync-2025-ai-ml"
           data-button-theme="dark-inverted"
           style={{ height: "44px", width: "312px" }}
-        ></div> */}
+        ></div>
       </motion.div>
 
       <motion.div
