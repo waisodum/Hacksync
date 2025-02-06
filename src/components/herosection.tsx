@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
           <TypewriterText text="Innovate. Disrupt. Transform." />
         </motion.div>
 
-        <CountdownTimer />
+        {/* <CountdownTimer /> */}
         <br />
         <br />
         <br />
