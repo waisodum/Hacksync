@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import ParticleBackground from "./components/ParticleBackground";
 import HeroSection from "./components/herosection";
 import HackSyncAbout from "./components/textbox";
 import DestinationSection from "./components/destination";
@@ -28,7 +27,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-mesh text-white font-space">
-      {/* <ParticleBackground /> */}
       <Navbar />
 
       <Element name="home">

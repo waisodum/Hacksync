@@ -10,14 +10,14 @@ const HeroSection: React.FC = () => {
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8, delay: 1 }}
         className="max-w-4xl flex flex-col items-center mx-auto relative z-10"
       >
         <motion.h1
           className="text-5xl md:text-7xl font-bold mb-6 text-primary-500 font-arsenica"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 1 }}
         >
           HACKSYNC 2025
         </motion.h1>
